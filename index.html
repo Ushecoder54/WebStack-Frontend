@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Drinks Ordering Website</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1>Drinks Ordering Website</h1>
+<nav>
+<a href="#">Drinks Menu</a>
+<a href="#">Cart</a>
+<a href="#">Checkout</a>
+</nav>
+</header>
+<main>
+<section>
+<h2>Drinks Menu</h2>
+<ul>
+<li><a href="#">Coffee</a></li>
+<li><a href="#">Tea</a></li>
+<li><a href="#">Smoothies</a></li>
+<li><a href="#">Water</a></li>
+</ul>
+</section>
+<section>
+<h2>Cart</h2>
+<ul>
+<li>Coffee</li>
+</ul>
+</section>
+<section>
+<h2>Checkout</h2>
+<form action="/checkout" method="post">
+<input type="text" name="name" placeholder="Name">
+<input type="text" name="email" placeholder="Email">
+<input type="text" name="address" placeholder="Address">
+<input type="text" name="card_number" placeholder="Card Number">
+<input type="text" name="cvv" placeholder="CVV">
+<input type="submit" value="Checkout">
+</form>
+</section>
+</main>
+<footer>
+<p>Copyright &copy; 2023</p>
+</footer>
+</body>
+</html>
